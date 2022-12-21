@@ -18,7 +18,7 @@ public class Main {
         int numberGame = numbers.nextInt();
         String [] mas = {"камень", "ножницы", "бумага"};
         int n = 2;
-        for (int i = 0; i <= numberGame; i++) {
+        for (int i = 0; i < numberGame; i++) {
             String machineChoise = mas[generateRandomNumber(n)];
             System.out.println("Какой твой выбор?");
             Scanner choise = new Scanner(System.in);
